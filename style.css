@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+:root {
+    --primary-color: #3EA097;
+    --secundary-color: #3FB4A9;
+}
+body{
+    background-color: var(--secundary-color);
+}
+header{
+    width: auto;
+    min-height: 30px;
+    height: 50px;
+    background-color: var(--primary-color);
+    /*-webkit-transform: rotate(10deg);
+    -ms-transform: rotate(1deg);
+    transform: rotate(-4deg);*/
+}
+main{
+    text-align: center;
+    height: 100%;
+    min-height: calc(100% - 4rem);
+}
+main h2{
+    margin: 10px;
+    font-style: italic;
+    font-size: 2rem;
+    color: #ffffff;
+}
+main h4{
+    margin: 34px;
+    font-style: italic;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+form input{
+    max-width: 400px;
+    min-width: 280px;
+    margin: 20px;
+    border: none;
+    border-bottom: #E2E2E2 solid 2px;
+    background-color: var(--secundary-color);
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+section a{
+    margin: 38px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #ffffff;
+}
+section a:hover{
+    color: var(--primary-color);
+}
+section button{
+    width: 100px;
+    height: 29px;
+    border: none;
+    border-radius: 29px;
+    border: #696B63 1px solid;
+    margin: 10px;
+}
+.access{
+    text-align: center;
+    background-color: var(--primary-color);
+    color: white;
+}
+.button-facebook{
+    background-color: #3c589a;
+    color: white;
+}
+.button-google{
+   background-color: #DB4A39;
+   color: white;
+}
+section p{
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    font-size: 1.5rem;
+}
+footer{
+    height: 50px;
+    min-height: 30px;
+    background-color: var(--primary-color);
+}
