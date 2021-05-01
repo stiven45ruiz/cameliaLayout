@@ -34,8 +34,12 @@ html{
     margin: 30px;
 }
 .subtitle-main{
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 200;
+}
+.section-info p{
+    font-size: 1.5rem;
+    font-weight: 100;
 }
 .footer-icons{
     position: fixed;
